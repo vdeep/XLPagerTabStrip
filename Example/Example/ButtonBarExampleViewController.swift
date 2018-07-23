@@ -47,12 +47,24 @@ class ButtonBarExampleViewController: ButtonBarPagerTabStripViewController {
         let child_6 = ChildExampleViewController(itemInfo: "View 3")
         let child_7 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 4")
         let child_8 = ChildExampleViewController(itemInfo: "View 4")
+        let child_9 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 5")
+        let child_10 = ChildExampleViewController(itemInfo: "View 5")
+        let child_11 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 6")
+        let child_12 = ChildExampleViewController(itemInfo: "View 6")
+        let child_13 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 7")
+        let child_14 = ChildExampleViewController(itemInfo: "View 7")
+        let child_15 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 8")
+        let child_16 = ChildExampleViewController(itemInfo: "View 8")
+        let child_17 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 9")
+        let child_18 = ChildExampleViewController(itemInfo: "View 9")
+        let child_19 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 10")
+        let child_20 = ChildExampleViewController(itemInfo: "View 10")
 
         guard isReload else {
             return [child_1, child_2, child_3, child_4, child_5, child_6, child_7, child_8]
         }
 
-        var childViewControllers = [child_1, child_2, child_3, child_4, child_5, child_6, child_7, child_8]
+        var childViewControllers = [child_1, child_2, child_3, child_4, child_5, child_6, child_7, child_8, child_9, child_10, child_11, child_12, child_13, child_14, child_15, child_16, child_17, child_18, child_19, child_20]
 
         for index in childViewControllers.indices {
             let nElements = childViewControllers.count - index
